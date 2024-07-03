@@ -1,0 +1,100 @@
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: white;
+    accent-color: var(--native-dark-accent-color);
+}
+
+html a:visited, 
+  html a:visited > *:not(svg) {
+    color: var(--native-dark-visited-link-color) !important;
+  }
+
+  a[ping]:link,
+  a[ping]:link > *:not(svg),
+  :link:not(cite) {
+    color: var(--native-dark-link-color) !important;
+  }
+
+  html cite,
+  html cite a:link,
+  html cite a:visited {
+    color: var(--native-dark-cite-color) !important;
+  }
+
+  img,
+  image,
+  figure:empty {
+    opacity: var(--native-dark-opacity) !important;
+  }
+}
+
+#title {
+font-size: xx-large;
+font-weight: bold;
+}
+
+#title:hover {
+  text-decoration: underline;
+}
+
+#ch {
+font-size: x-large;
+font-weight: bold;
+margin-bottom: -7.5px;
+}
+
+body {
+height: 100vh;
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.outer {
+text-align: center;
+}
+
+#des {
+margin-top: -20px;
+}
+
+#toggle {
+cursor: pointer;
+color: rgb(124, 124, 124);
+background-color: transparent;
+border: none;
+}
+
+#toggle:hover {
+  color: #4b5ff4;
+  font-weight: bold;
+}
+
+#leftbtn {
+color: rgb(124, 124, 124);
+background-color: transparent;
+border: none;
+}
+
+#leftbtn:hover {
+color: #4b5ff4;
+font-weight: bold;
+}
+
+#rightbtn {
+color: rgb(124, 124, 124);
+background-color: transparent;
+border: none;
+}
+
+#rightbtn:hover {
+color:#4b5ff4;
+font-weight: bold;
+}
+
+.ctrl {
+margin-top: -7.5px;
+}
